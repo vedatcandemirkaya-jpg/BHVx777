@@ -27,12 +27,22 @@ No	Araç	Açıklama
 10	RSB-Framework	Gelişmiş RAT framework’ü
 11	Kizagan	Türk yapımı RAT aracı
 12	thorse	Gelişmiş uzaktan erişim aracı
-⚙️ Kurulum
-bash
-git clone https://github.com/kullaniciadin/BHVx777.git
+# ⚙️ Kurulum
+
+pkg update && pkg upgrade -y
+
+pkg install git
+
+pkg install python3
+
+git clone https://github.com/vedatcandemirkaya-jpg/BHVx777.git
+
 cd BHVx777
-python3 BHVx777.py
-Not: İlk çalıştırmada pkg update, pkg upgrade ve git otomatik kurulur.
+
+pip install pyfiglet
+
+python3 bhv.py
+
 
 🚀 Kullanım
 Terminalde python3 BHVx777.py yazın.
