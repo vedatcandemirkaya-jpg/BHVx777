@@ -1,0 +1,88 @@
+																		
+import pyfiglet
+import os
+import time
+#burda bana niye özelliklerini söylemedin diyen varsa cevabım pitonu yeni yeni öğreniyorum
+#yani bu ilk projem o yüzden beni tembel düşünmeyin
+os.system("pkg update && pkg upgrade -y")
+os.system("pkg install git -y")
+os.system("clear")
+print("bitmek üzere...")
+#star lop pok
+time.sleep(3)
+os.system("clear")
+print("Bitti!")
+time.sleep(1.5)
+os.system("clear")
+yazi = pyfiglet.figlet_format("BHVx777")
+print(yazi)
+print("""Mehraba BHV'ye hoşgeldiniz burda bir çok Rat bulunmaktadır istediğiniz seçin
+Rat'ı seçin""")
+print("""■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■""")
+print("Geliştirici: VHG")
+print("istediğiniz Rat'ı sayı ile belitriniz")
+def menu():
+	print("[1]	ModulerStegoRAT")
+	print("[2]	Remote-acces-trojan")
+	prihnt("[3]	PhantomLink")
+	print("[4]	DBsploit")
+	print("[5]	Discord-Remote-Access-Tool")
+	print("[6]	jarbou3")
+	print("[7]	Trojan-python")
+	print("[8]	Lo4f-Malware")
+	print("[9]	PIRATE") #KORSAN
+	print("[10]	RSB-FRAMEWORK")
+	print("[11]	Kizagan") #ya olm o ASCII banner şeyini nasıl yapiyorsunuz aqq
+	print("[12]	thorse")
+	print("[99]	Exit")
+print("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■")
+
+while True:
+	menu()
+	secim = input("Seçiminizi giriniz:	")
+	if secim == "1":
+		os.system("git clone https://github.com/RaspiestSheep3/ModularStegoRAT.git")
+
+	elif secim ==  "2":
+		os.system("git clone https://github.com/KoushikReddy9963/Remote-access-trojan.git")
+
+	elif secim == "3":
+		os.system("git clone https://github.com/AhmadMAnis/PhantomLink.git")
+
+	elif secim == "4":
+		os.system("git clone https://github.com/b3d3c/BDsploit.git")
+
+	elif secim == "5":
+		os.system("git clone https://github.com/jluotosun/Discord-Remote-Access-Tool.git")
+
+	elif secim == "6":
+		os.system("git clone https://github.com/TheNewAttacker64/jarbou3.git")
+
+	elif secim == "7":
+		os.system("git clone https://github.com/zedxpace/Trojan-in-Python.git")
+
+	elif secim == "8":
+		os.system("git clone https://github.com/loafiieee/Lo4f-Malware.git")
+
+	elif secim == "9":
+		os.system("git clone https://github.com/gbrn1/PIRATE.git")
+
+	elif secim == "10":
+		os.system("git clone https://github.com/tarcisio-marinho/RSB-Framework.git")
+
+	elif secim == "11":
+		os.system("git clone https://github.com/st4inl3s5/kizagan.git")
+
+	elif secim == "12":
+		os.system("git clone https://github.com/PushpenderIndia/thorse.git")
+
+	elif secim == "14":
+		os.system("git clone https://github.com/Viralmaniar/Powershell-RAT.git")
+
+       	elif secim == "99":
+        	print("Çıkılıyor...")
+	    	break
+	else:
+	    print("Yanlış seçim")
+																		
+
