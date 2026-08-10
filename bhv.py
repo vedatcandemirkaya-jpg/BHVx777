@@ -61,7 +61,7 @@ while True:
 	elif secim ==  "2":
 		os.system("git clone https://github.com/KoushikReddy9963/Remote-access-trojan.git")
 		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
-		os.system*"clear")
+		os.system("clear")
 	elif secim == "3":
 		os.system("git clone http]]s://github.com/AhmadMAnis/PhantomLink.git")
 		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
@@ -73,7 +73,7 @@ while True:
 	elif secim == "5":
 		os.system("git clone https://github.com/jluotosun/Discord-Remote-Access-Tool.git")
 		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
-		os.system("clear"(
+		os.system("clear")
 	elif secim == "6":
 		os.system("git clone https://github.com/TheNewAttacker64/jarbou3.git")
 		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
