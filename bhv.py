@@ -47,6 +47,13 @@ def menu():
 	print(f"{KIRMIZI}[10]{RESET}	{CYAN}RSB-FRAMEWORK{RESET}")
 	print(f"{KIRMIZI}[11]{RESET}	{CYAN}Kizagan{RESET}") #ya olm o ASCII banner şeyini nasıl yapiyorsunuz aq
 	print(f"{KIRMIZI}[12]{RESET}	{CYAN}thorse{RESET}")
+	print(f"{KIRMIZI}[13]{RESET}	{CYAN}Powershell-RAT{RESET}")
+	print(f"{KIRMIZI}[14]{RESET}	{CYAN}Eroin{RESET}")
+	print(f"{KIRMIZI}[15]{RESET}	{CYAN}RAT-Collection{RESET}")
+	print(f"{KIRMIZI}[16]{RESET}	{CYAN}Viridae{RESET}")
+	print(f"{KIRMIZI}[17]{RESET}	{CYAN}SpyNote-v6.4{RESET}")
+	print(f"{KIRMIZI}[18]{RESET}	{CYAN}DLLREVERSESHELL{RESET}") #OHA AQ ADAM C DILINDE KODLAMIS
+	print(f"{KIRMIZI}[19]{RESET}	{CYAN}Curse_Rat{RESET}")
 	print(f"{KIRMIZI}[99]   	Exit{RESET}")
 	print(f"{YESIL}■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■{RESET}")
 
@@ -102,8 +109,32 @@ while True:
 		os.system("git clone https://github.com/PushpenderIndia/thorse.git")
 		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
-	elif secim == "14":
+	elif secim == "13":
 		os.system("git clone https://github.com/Viralmaniar/Powershell-RAT.git")
+		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		os.system("clear")
+	elif secim == "14":
+		os.system("git clone https://github.com/b23r0/Heroinn.git")
+		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		os.system("clear")
+	elif secim == "15":
+		os.system("git clone https://github.com/Pyran1/RAT-Collection.git")
+		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		os.system("clear")
+	elif secim == "16":
+		os.system("git clone https://github.com/Err0r-ICA/Viridae.git")
+		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		os.system("clear")
+	elif secim == "17":
+		os.system("git clone https://github.com/4btin/SpyNote-v6.4.git")
+		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		os.system("clear")
+	elif secim == "18":
+		os.system("git clone https://github.com/1captainnemo1/DLLREVERSESHELL.git")
+		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		os.system("clear")
+	elif secim == "19":
+		os.system("git clone https://github.com/thorthehacker111/Curse_Rat.git")
 		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "99":
