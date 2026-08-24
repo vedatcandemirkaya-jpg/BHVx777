@@ -27,6 +27,7 @@ No	Araç	Açıklama
 10	RSB-Framework	Gelişmiş RAT framework’ü
 11	Kizagan	Türk yapımı RAT aracı
 12	thorse	Gelişmiş uzaktan erişim aracı
+VE DAHA FAZLASI
 # ⚙️ Kurulum
 
 pkg update && pkg upgrade -y
