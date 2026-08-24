@@ -22,7 +22,7 @@ os.system("clear")
 print("bitmek üzere...")
 time.sleep(3)
 os.system("clear")
-print("Bitti!")
+print(f"{KIRMIZI}Bitti!{RESET}")
 time.sleep(1.5)
 os.system("clear")
 
@@ -61,6 +61,10 @@ def menu():
 	print(f"{KIRMIZI}[24]{RESET}	{CYAN}Curse-RAT{RESET}")
 	print(f"{KIRMIZI}[25]{RESET}	{CYAN}remote-admin-trojan{RESET}")
 	print(f"{KIRMIZI}[26]{RESET}	{CYAN}ratshiled-xdr-pro{RESET}")
+	print(f"{KIRMIZI}[27]{RESET}	{CYAN}TelegramRAT{RESET}")
+	print(f"{KIRMIZI}[28]{RESET}	{CYAN}iOS-R4T-P0C{RESET}")
+	print(f"{KIRMIZI}[29]{RESET}	{CYAN}PingRAT{RESET}")
+	print(f"{KIRMIZI}[30){RESET}	{CYAN}DuplexSpyCS{RESET}")
 	print(f"{KIRMIZI}[99]   	Exit{RESET}")
 	print(f"{YESIL}■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■{RESET}")
 
@@ -70,11 +74,11 @@ while True:
 	secim = input(f"{SARI}Seçiminizi giriniz:	{RESET}")
 	if secim == "1":
 		os.system("git clone https://github.com/RaspiestSheep3/ModularStegoRAT.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim ==  "2":
 		os.system("git clone https://github.com/KoushikReddy9963/Remote-access-trojan.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "3":
 		os.system("git clone http]]s://github.com/AhmadMAnis/PhantomLink.git")
@@ -82,95 +86,111 @@ while True:
 		os.system("clear")
 	elif secim == "4":
 		os.system("git clone https://github.com/b3d3c/BDsploit.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "5":
 		os.system("git clone https://github.com/jluotosun/Discord-Remote-Access-Tool.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "6":
 		os.system("git clone https://github.com/TheNewAttacker64/jarbou3.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "7":
 		os.system("git clone https://github.com/zedxpace/Trojan-in-Python.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "8":
 		os.system("git clone https://github.com/loafiieee/Lo4f-Malware.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "9":
 		os.system("git clone https://github.com/gbrn1/PIRATE.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "10":
 		os.system("git clone https://github.com/tarcisio-marinho/RSB-Framework.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "11":
 		os.system("git clone https://github.com/st4inl3s5/kizagan.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "12":
 		os.system("git clone https://github.com/PushpenderIndia/thorse.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "13":
 		os.system("git clone https://github.com/Viralmaniar/Powershell-RAT.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "14":
 		os.system("git clone https://github.com/b23r0/Heroinn.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "15":
 		os.system("git clone https://github.com/Pyran1/RAT-Collection.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "16":
 		os.system("git clone https://github.com/Err0r-ICA/Viridae.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "17":
 		os.system("git clone https://github.com/4btin/SpyNote-v6.4.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "18":
 		os.system("git clone https://github.com/1captainnemo1/DLLREVERSESHELL.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "19":
 		os.system("git clone https://github.com/thorthehacker111/Curse_Rat.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "20":
 		os.system("git clone https://github.com/alphaSeclab/awesome-rat.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "21":
 		os.system("git clone https://github.com/Pyran1/RAT-Collection.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "22":
 		os.system("git clone https://github.com/Euronymou5/LoVeRst.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "23":
 		os.system("git clone https://github.com/ElliotAlderson51/Fsociety-RAT.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "24":
 		os.system("git clone https://github.com/thorthehacker111/Curse_Rat.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "25":
 		os.system("git clone https://github.com/laironflypeople4/remote-admin-trojan.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "26":
 		os.system("git clone https://github.com/Yoonas18/ratshield-xdr-pro.git")
-		input(f"{SARI}Tool'unuz RAT adlı klasörünüze yüklendi devam etmek için Enter tıklayın...{RESET}")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
+		os.system("clear")
+	elif secim == "27":
+		os.system("git clone https://github.com/Garneg/TelegramRAT.git")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
+		os.system("clear")
+	elif secim == "28":
+		os.system("git clone https://github.com/westforges/iOS-R4T-P0C.git")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
+		os.system("clear")
+	elif secim == "29":
+		os.system("git clone https://github.com/umutcamliyurt/PingRAT.git")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
+		os.system("clear")
+	elif secim == "30":
+		os.system("git clone https://github.com/iss4cf0ng/DuplexSpyCS.git")
+		input(f"{SARI}RAT şuanda olduğunuz klasöre yüklendi devam etmek için Enter tıklayın...{RESET}")
 		os.system("clear")
 	elif secim == "99":
 	     print(f"{KIRMIZI}Çıkılıyor...{RESET}")

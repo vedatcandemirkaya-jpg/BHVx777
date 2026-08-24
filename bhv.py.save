@@ -81,7 +81,8 @@ while True:
 
        	elif secim == "99":
         	print("Çıkılıyor...")
-	    	break
+	    	time.sleep(2)
+		break
 	else:
 	    print("Yanlış seçim")
 																		
